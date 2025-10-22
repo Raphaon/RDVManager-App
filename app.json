@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "RDV Manager",
+    "slug": "rdv-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#6200ee"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rdvmanager.app"
+    },
+    "android": {
+      "package": "com.rdvmanager.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#6200ee"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
